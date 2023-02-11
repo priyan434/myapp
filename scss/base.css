@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 11000000px;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.nav-item {
+  box-sizing: border-box;
+  margin-left: 3rem;
+}
+
+.nav-item a {
+  color: black;
+}
+
+.navbar-brand {
+  color: black;
+}
+
+.collapse .nav-item {
+  font-size: 2rem;
+}
+.collapse .d-flex .form-control,
+.collapse .btn {
+  font-size: 1.3rem;
+}
+.collapse span {
+  font-size: 2rem;
+  border-radius: 10px;
+  background: #f3f3f5;
+  box-shadow: 9px 9px 12px #b2b2b3, -9px -9px 12px #ffffff;
+}
+
+.about_us {
+  margin-top: 5rem;
+  padding-top: 10rem;
+}
+.about_us .about_us_header {
+  display: flex;
+  justify-content: center;
+}
+.about_us h2 {
+  text-align: center;
+  padding: 3px;
+  background: #f3f3f5;
+  box-shadow: 9px 9px 12px #b2b2b3, -9px -9px 12px #ffffff;
+  border-radius: 2rem;
+  width: 105px;
+  height: 40px;
+}
+.about_us img {
+  height: 60%;
+  width: 90%;
+  border-radius: 2rem;
+}
+.about_us .about_hero_text {
+  font-size: 1.7rem;
+}
+.about_us .about_hero_text a {
+  font-size: 2rem;
+  display: inline-block;
+  text-decoration: none;
+  color: orangered;
+  box-shadow: inset 9px 9px 12px #cccccc, inset -9px -9px 12px #ffffff;
+  padding: 2px;
+  border-radius: 2rem;
+  height: 4rem;
+  width: 12rem;
+  text-align: center;
+}
+.about_us .aboutus_content {
+  margin-top: 5rem;
+}
+
+.gallery_section {
+  padding-top: 8rem;
+}
+.gallery_section .gallery_header {
+  display: flex;
+  justify-content: center;
+}
+.gallery_section h2 {
+  text-align: center;
+  padding: 3px;
+  background: #f3f3f5;
+  box-shadow: 9px 9px 12px #b2b2b3, -9px -9px 12px #ffffff;
+  border-radius: 2rem;
+  width: 100px;
+  height: 40px;
+}
+.gallery_section .swiper {
+  margin-top: 5rem;
+  width: 50rem;
+  height: 50rem;
+}
+.gallery_section .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  height: 80%;
+  width: 90%;
+}
+.gallery_section .swiper-slide img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=base.css.map */
